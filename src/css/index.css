@@ -1,0 +1,106 @@
+body {
+  background: rgb(0, 0, 0); /* Make it white if you need */
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 24px;
+  margin: auto;
+  height: 100px;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 800px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+h1{
+font-size: 60px;
+}
+
+.text{
+display: flex;
+justify-content: center;
+bottom: 100px;
+text-align: right;
+}
+
+.center {
+  overflow-wrap: break-word;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.memberBox {
+  overflow-wrap: break-word;
+  margin: auto;
+  width: 100%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button {
+  color: white;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+input {
+  transition: ease, 0.1s;
+  font-size: 10px;
+  color: white;
+  padding: 0;
+  background-color: black;
+}
+
+button:hover {
+  color: gray;
+  transition: ease, 0.25s;
+}
+
+.logo{
+  color: white;
+  font-size: 100px;
+}
+
+.perfectCenter{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.leftBox{
+  position: static;
+}
+
+.rightBox{
+  position: static;
+}
+
+.midBox{
+  position: static;
+} 
+
+th{
+  font-size: 20px;
+}
+
+.memberStatus {
+  font-size: 30px;
+}
+
+.rankLogo{
+  font-size: 55px;
+}
+
+.hide{
+  display:none;
+}
