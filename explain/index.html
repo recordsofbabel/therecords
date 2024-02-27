@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Explaination</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <meta charset="UTF-8">
+    <script src="../src/js/buttons.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/js/websiteLocker.js"></script>
+    <link rel="stylesheet" href="../src/css/index.css"><style>
+      .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        color: #ffffff;
+      }
+      
+      .hover-underline-animation:after {
+        font-size: 60px;
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background: white;
+        transform-origin: bottom right;
+        transition: transform 0.1s ease-out;
+      }
+      
+      .hover-underline-animation:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+</style></link>
+   
+    </script>
+  </head>
+  
+  <body >
+    <img src="../resources/hex802.png" alt="Logo" width="200"><br>
+    <h2 id="header">The Explaination</h2><br>
+    <p>The Records of Babel are and always will be a personal project of Jasper Walker. They were created utilising python and various web developement tools.</p>
+    <br>
+    <p>It generates songs using random characters that are then interperated by "The Records". The songs are hosted on a server that all users connect to, meaning that expanding the library can be quick and efficient.</p>
+    <br>
+    <img src="../resources/hex802.png" alt="Logo" width="200"><br>
+    <p>‎</p>
+  </body>
+</html>
