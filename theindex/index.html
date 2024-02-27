@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Index</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/js/websiteLocker.js"></script>
+    <link rel="stylesheet" href="../src/css/index.css"><style>
+      .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        color: #ffffff;
+      }
+      
+      .hover-underline-animation:after {
+        font-size: 60px;
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background: white;
+        transform-origin: bottom right;
+        transition: transform 0.1s ease-out;
+      }
+      
+      .hover-underline-animation:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+</style></link>
+   
+    </script>
+  </head>
+  
+  <body >
+    <img src="../resources/hex802.png" alt="Logo" width="200"><br>
+    <h2 id="header">The Index</h2><br>
+    <p>The Records of Babel are so expansive that we have not been able to catalogue them. Any important discoveries will be available here.</p>
+    <br>
+    <img src="../resources/hex802.png" alt="Logo" width="200"><br>
+    <p>‎</p>
+  </body>
+</html>
