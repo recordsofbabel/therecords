@@ -21,3 +21,10 @@ function submitClicked() {
 function submitSongClicked() {
     window.location.href = "https://forms.gle/vWz5FEZ4fxvpZoBe7"
 }
+function instructionsClicked() {
+    window.location.href = "./instructions/index.html"
+}
+
+function submitDiscClicked() {
+    window.location.href = "https://forms.gle/oMdNjK19ZWVsC9XaA"
+}
